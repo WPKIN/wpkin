@@ -1,0 +1,25 @@
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  background: #fff;
+  img {
+    width: 100%;
+  }
+  .four_zero_four_bg {
+    background-image: url(../../assets/images/dribbble.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    h1 {
+      font-size: 80px;
+    }
+    h3 {
+      font-size: 80px;
+    }
+  }
+  .contant_box_404 {
+    margin-top: -50px;
+  }
+}

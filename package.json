@@ -1,0 +1,17 @@
+{
+  "name": "wptoffee",
+  "version": "1.0.0",
+  "description": "[See Demo](https://product-layouts.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "sass": "^1.66.1",
+    "sass-loader": "^12.6.0"
+  }
+}

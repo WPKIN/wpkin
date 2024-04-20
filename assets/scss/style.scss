@@ -1,0 +1,26 @@
+/*
+* Author          : WPToffee
+* Version         : 1.1.1
+* Url             : http://wptoffee.com/
+*/
+
+// variables
+$black: #000000;
+$white: #ffffff;
+$base-color: #0292FF;
+$text-color: #000000;
+$primary-color: #0292FF;
+$m-menu-hover: #e9ecef;
+
+$lato: 'Lato', sans-serif;
+$offer: 'Cookie', cursive;
+
+// pages
+@import './default';
+@import './nav';
+@import './components/icon';
+@import './components/card';
+@import './banner';
+@import './404';
+@import './footer';
+@import './components/sections_bg';
