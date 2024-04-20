@@ -34,7 +34,7 @@
 						<a class="nav-link" href="#">Products</a>
 						<ul class="sub-menu">
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="https://product-layouts.com/" target="_blank">
 									<div class="menu-logo">
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
 									</div>
@@ -45,7 +45,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="https://wordpress.org/plugins/wc-thank-you-page/">
+								<a class="nav-link" href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank">
 									<div class="menu-logo">
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankyoupage.jpg" alt="Icon">
 									</div>

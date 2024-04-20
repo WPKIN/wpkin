@@ -10,9 +10,9 @@ get_header();
 				<div class="col-xl-12">
 					<div class="hero-content text-center">
 						<p class="banner-slogan">WORDPRESS  &  WOOCOMMERCE  SOLUTIONS</p>
-						<h1>We elevates your business</h1>
-						<p class="banner-sub-heading">Make your shop super organized with Product Layouts! Craft, extend, and customize your Woo Store more easily than ever! </p>
-						<a href="" class="btn btn-outline banner-button">Explore Plugins <span class="icon icon-right"></span></a>
+						<h1>Stylish WordPress Plugins</h1>
+						<p class="banner-sub-heading">Wptoffee is all about making your WordPress experience amazing. Our Plugins are loved for their beautiful designs, clean code, and quick support.</p>
+						<a href="#plugin-showcase" class="btn btn-outline banner-button">Explore Plugins <span class="icon icon-right"></span></a>
 					</div>
 				</div>
 				<!-- /.column -->
@@ -22,7 +22,7 @@ get_header();
 	</section>
 
 	<!-- showcase section -->
-	<section class="showcase section-padding">
+	<section id="plugin-showcase" class="showcase section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -33,9 +33,9 @@ get_header();
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-12 p-5 pt-0 pb-0">
-					<div class="row justify-content-center p-5 pt-3 pb-0">
-						<div class="col-lg-6">
+				<div class="col-lg-12 px-lg-5 px-0"> <!-- Added responsive padding -->
+					<div class="row justify-content-center">
+						<div class="col-lg-6 col-md-8 col-sm-10 col-12">
 							<div class="card card-shadow mx-auto">
 								<div class="card-img">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
@@ -43,11 +43,11 @@ get_header();
 								<div class="card-body">
 									<h4 class="card-title">Product Layouts</h4>
 									<p class="card-text">Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
-									<a href="/demo/" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
+									<a href="https://product-layouts.com/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-8 col-sm-10 col-12 mt-lg-0 mt-4">
 							<div class="card card-shadow mx-auto">
 								<div class="card-img">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankyoupage.jpg" alt="Icon">
@@ -55,7 +55,7 @@ get_header();
 								<div class="card-body">
 									<h4 class="card-title">Thank You Page</h4>
 									<p class="card-text">Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
-									<a href="/demo/" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
+									<a href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
 								</div>
 							</div>
 						</div>
@@ -158,8 +158,8 @@ get_header();
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title">
-						<h2><span>Reviews</span> from Our Users</h2>
-						<p>Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
+						<h2><span>Testimonials</span> from Our Valued Users</h2>
+						<p>Explore the heartfelt feedback and insightful comments shared by our community members.</p>
 					</div>
 				</div>
 			</div>
@@ -218,6 +218,26 @@ get_header();
 				</div>
 			</div>
 		</div>
+	</section>
+
+	<!-- Join us section -->
+	<section class="join-us section-padding" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/news-letter-bg.png)">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="join-us-content text-center">
+						<h2>Join our thriving community</h2>
+						<h4 class="join-us-sub-heading">We're just waiting for you!</h4>
+					</div>
+					<div class="plugins-button text-center">
+						<a class="wt-button" href="">Explore Product Layouts</a>
+						<a class="wt-button" href="">Explore Thank You Page</a>
+					</div>
+				</div>
+				<!-- /.column -->
+			</div>
+		</div>
+		<!-- /.container end -->
 	</section>
 
 <?php

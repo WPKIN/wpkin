@@ -13,6 +13,7 @@ $primary-color: #0292FF;
 $m-menu-hover: #e9ecef;
 
 $lato: 'Lato', sans-serif;
+$inter: Inter, sans-serif;
 $offer: 'Cookie', cursive;
 
 // pages
@@ -24,3 +25,4 @@ $offer: 'Cookie', cursive;
 @import './404';
 @import './footer';
 @import './components/sections_bg';
+@import './components/buttons';
