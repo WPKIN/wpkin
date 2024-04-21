@@ -32,32 +32,28 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-12 px-lg-5 px-0"> <!-- Added responsive padding -->
-					<div class="row justify-content-center">
-						<div class="col-lg-6 col-md-8 col-sm-10 col-12">
-							<div class="card card-shadow mx-auto">
-								<div class="card-img">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
-								</div>
-								<div class="card-body">
-									<h4 class="card-title">Product Layouts</h4>
-									<p class="card-text">Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
-									<a href="https://product-layouts.com/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
-								</div>
-							</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-12">
+					<div class="card card-shadow mx-auto">
+						<div class="card-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
 						</div>
-						<div class="col-lg-6 col-md-8 col-sm-10 col-12 mt-lg-0 mt-4">
-							<div class="card card-shadow mx-auto">
-								<div class="card-img">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankyoupage.jpg" alt="Icon">
-								</div>
-								<div class="card-body">
-									<h4 class="card-title">Thank You Page</h4>
-									<p class="card-text">Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
-									<a href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
-								</div>
-							</div>
+						<div class="card-body">
+							<h4 class="card-title">Product Layouts</h4>
+							<p class="card-text">Create Impressive, Lightweight, Responsive WooCommerce Product Layouts. Compatible with popular themes & page builders...</p>
+							<a href="https://product-layouts.com/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-8 col-sm-10 col-12 mt-lg-0 mt-4">
+					<div class="card card-shadow mx-auto">
+						<div class="card-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankyoupage.jpg" alt="Icon">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Thank You Page</h4>
+							<p class="card-text">WC Thank You Page redirect internal custom thank you page or external any url after completing orders on your WooCommerc…</p>
+							<a href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
 						</div>
 					</div>
 				</div>
@@ -78,49 +74,50 @@ get_header();
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="row justify-content-center">
-						<div class="col-lg-4 ">
-							<div class="card card-border mx-auto">
+						<div class="col-lg-4">
+							<div class="card card-border mx-auto mt-4">
 								<div class="card-img">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/unique-product.svg" alt="Icon">
 								</div>
 								<div class="card-body">
 									<h4 class="card-title">Unique product</h4>
-									<p class="card-text">We provide you with unique products that make your life easier! These products are created to solve your pain points. Our amazing products offer you quality and cre</p>
+									<p class="card-text">We offer unique products that make your life easier! These products are created to solve your pain points.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 mt-4">
-							<div class="card card-border mx-auto">
+						<div class="col-lg-4">
+							<div class="card card-border mx-auto mt-4">
+								<div class="card-img">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/updates.svg" alt="Icon">
+								</div>
+								<div class="card-body">
+									<h4 class="card-title">Product updates</h4>
+									<p class="card-text">We update our products on a regular basis to provide you the best quality and high performance.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card card-border mx-auto mt-4">
 								<div class="card-img">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/code.svg" alt="Icon">
 								</div>
 								<div class="card-body">
 									<h4 class="card-title">Highly optimized code</h4>
-									<p class="card-text">Our products are built with highly optimized and tested code. We provide you fast and user-friendly products that never slow down your site. All our</p>
+									<p class="card-text">Our products are built with highly optimized and tested code. We offer fast and user-friendly products.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4">
-							<div class="card card-border mx-auto">
-							<div class="card-img">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/updates.svg" alt="Icon">
-								</div>
-								<div class="card-body">
-									<h4 class="card-title">Product updates</h4>
-									<p class="card-text">We update our products on a regular basis to provide you the best quality and high performance. The regular updates make our products compatible with any</p>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 					<div class="row justify-content-center">
 						<div class="col-lg-4">
-							<div class="card card-border mx-auto">
+							<div class="card card-border mx-auto mt-4">
 								<div class="card-img">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/problem-solving.svg" alt="Icon">
 								</div>
 								<div class="card-body">
 									<h4 class="card-title">Problem solving</h4>
-									<p class="card-text">All our products are developed keeping in mind our customers’ pain points. Our products solve the specific problems of the customers and make your life easier</p>
+									<p class="card-text">All our products are developed keeping in mind our customers’ pain points. Our products make your life easier.</p>
 								</div>
 							</div>
 						</div>
@@ -131,18 +128,18 @@ get_header();
 								</div>
 								<div class="card-body">
 									<h4 class="card-title">Awesome support</h4>
-									<p class="card-text">We have an energetic and enthusiastic team always ready to provide you fast, friendly & top-notch customer support. If you face any difficulties using the</p>
+									<p class="card-text">We have an energetic team always ready to provide you fast, friendly & top-notch customer support.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4">
-							<div class="card card-border mx-auto">
+							<div class="card card-border mx-auto mt-4">
 							<div class="card-img">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/security.svg" alt="Icon">
 								</div>
 								<div class="card-body">
 									<h4 class="card-title">Security</h4>
-									<p class="card-text">Our products are coded with high optimization and they are regularly updated. Due to the regular monitoring of our dev team, the products are highly</p>
+									<p class="card-text">Our products are coded with high optimization and they are regularly updated.</p>
 								</div>
 							</div>
 						</div>
@@ -173,12 +170,12 @@ get_header();
 										<span>5</span>
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/review.svg" alt="Icon">
 									</div>
-									<h4 class="card-title">Product Layouts</h4>
-									<p class="card-text">Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
+									<h4 class="card-title">Definately Puts Woo Product Layouts On Par With Shopify</h4>
+									<p class="card-text">Absolutely incredible plugin! Product Layout is an outstanding plugin that puts any Woocommerc... <a href="https://wordpress.org/support/topic/awesome-plugin-definately-puts-woo-products-layouts-on-par-with-shopify/" target="_blank">See More</a></p>
 								</div>
 								<div class="card-img">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
-									<span>Leslie Alexander</span>
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/reviewer/dolfinguy.png" alt="Icon">
+									<span>DolphinGuy</span>
 								</div>
 							</div>
 						</div>
@@ -189,12 +186,12 @@ get_header();
 										<span>5</span>
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/review.svg" alt="Icon">
 									</div>
-									<h4 class="card-title">Product Layouts</h4>
-									<p class="card-text">Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
+									<h4 class="card-title">Best Plugin I have ever used for product layouts.</h4>
+									<p class="card-text">The plugin is so easy to use and has allowed me to create stunning product displays that have helped me attract more customers and boost my sales... <a href="https://wordpress.org/support/topic/best-plugin-i-have-ever-used-for-product-layouts/" target="_blank">See More</a></p>
 								</div>
 								<div class="card-img">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
-									<span>Leslie Alexander</span>
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/reviewer/jabir.png" alt="Icon">
+									<span>jabir88</span>
 								</div>
 							</div>
 						</div>
@@ -205,12 +202,12 @@ get_header();
 										<span>5</span>
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/review.svg" alt="Icon">
 									</div>
-									<h4 class="card-title">Product Layouts</h4>
-									<p class="card-text">Augment the functionality of your website through the integration of our robust and sophisticated WordPress plugins.</p>
+									<h4 class="card-title">Amazon and Flipkart level Branding for the shop</h4>
+									<p class="card-text">If you really want to add meaning and brand value to your marketplace. This is one stop shop solution!... <a href="https://wordpress.org/support/topic/amazon-and-flipkart-level-branding-for-the-shop/" target="_blank">See More</a></p>
 								</div>
 								<div class="card-img">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
-									<span>Leslie Alexander</span>
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/reviewer/Sonuchno.png" alt="Icon">
+									<span>Sonuchno</span>
 								</div>
 							</div>
 						</div>
@@ -230,8 +227,8 @@ get_header();
 						<h4 class="join-us-sub-heading">We're just waiting for you!</h4>
 					</div>
 					<div class="plugins-button text-center">
-						<a class="wt-button" href="">Explore Product Layouts</a>
-						<a class="wt-button" href="">Explore Thank You Page</a>
+						<a class="wt-button" href="https://product-layouts.com/" target="_blank">Explore Product Layouts</a>
+						<a class="wt-button" href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank">Explore Thank You Page</a>
 					</div>
 				</div>
 				<!-- /.column -->

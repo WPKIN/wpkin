@@ -1,0 +1,12 @@
+body.page, 
+body.single,
+body.archive,
+body.search {
+    background: linear-gradient(180.71deg, #6C9EFF -150px, rgba(249, 250, 255, 0) 400px) no-repeat center top;
+	.title-header {
+	@media (max-width: 992.98px) {
+		padding: 100px 0 30px 0 !important;
+	}
+		padding: 200px 0 60px 0;
+	}
+}

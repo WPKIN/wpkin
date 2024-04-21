@@ -1,43 +1,6 @@
 <footer id="footer">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-8">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="pages footer-links">
-							<h3>Resources</h3>
-							<ul class="links">
-								<li><a href="/demo/">Demo</a></li>
-								<li><a href="https://wptoffee.com/blog/" rel="nofollow">Blog</a></li>
-								<li><a href="https://wptoffee.com/privacy-policy/">Privacy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="policies footer-links">
-							<h3>Company</h3>
-							<ul class="links">
-								<li><a href="https://wptoffee.com/about-us/">About us</a></li>
-								<li><a href="https://wptoffee.com/contact-us/">Contact</a></li>
-								<li><a href="https://wptoffee.com/affiliate/">Affiliates</a></li>
-								<li><a href="#">Affiliate Policy</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="policies footer-links">
-							<h3>Get Help</h3>
-							<ul class="links">
-								<li><a href="https://wptoffee.com/docs/what-is-the-product-layouts-plugin-for-woocommerce/">Docs</a></li>
-								<li><a href="https://wptoffee.com/contact-us/">Support</a></li>
-								<li><a href="https://www.youtube.com/playlist?list=PL-cc1qrrj0bbblxIQACqFb405Fr-3_ueC">Video Tutorial</a></li>
-								<li><a href="#">Submit Request</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="row footer-content">
 			<div class="col-lg-4">
 				<div class="product-info">
 					<a href="<?php echo esc_url( site_url() ); ?>" class="logo">
@@ -52,11 +15,47 @@
 					</ul>
 				</div>
 			</div>
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="pages footer-links">
+							<h3>Resources</h3>
+							<ul class="links">
+								<li><a href="https://wptoffee.com/about-us/">About us</a></li>
+								<li><a href="https://wptoffee.com/contact-us/">Contact Us</a></li>
+								<li><a href="https://wptoffee.com/affiliate/">Affiliates</a></li>
+								<li><a href="#">Affiliate Policy</a></li>
+								<li><a href="https://wptoffee.com/privacy-policy/">Privacy Policy</a></li>
+								<li><a href="#">Refund Policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="policies footer-links">
+							<h3>Get Help</h3>
+							<ul class="links">
+								<li><a href="https://wptoffee.com/docs/what-is-the-product-layouts-plugin-for-woocommerce/">Docs</a></li>
+								<li><a href="https://wptoffee.com/contact-us/">Support</a></li>
+								<li><a href="https://www.youtube.com/@wptoffee">Video Tutorial</a></li>
+								<li><a href="#">Submit Request</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="news-letter footer-links">
+							<h3>Subscribe to Our Newsletter</h3>
+							<p>Stay up to date with all the recent news, updates and great discounts</p>
+							<?php echo do_shortcode('[fluentform id="2"]'); ?>
+							<p>We promise, we will never spam you.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-12">
 				<div class="copyright">
-					<p>Copyright © <span class="currentyear">1999</span> | A <a href="https://wptoffee.com/">WPToffee</a> Product.</p>
+					<p>Copyright © <?php echo date("Y"); ?> All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
