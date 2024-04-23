@@ -27,6 +27,15 @@
 		  $('.navbar').removeClass('sticky');
 		}
 	  });
+
+	// Contact us tab
+	$('.wt-tab-item').on('click', function(){
+		$('.wt-tab-item').removeClass('active');
+		$(this).addClass('active');
+		var tabClass = $(this).data('target');
+		$('.wt-tab-item-content').removeClass('active');
+		$('.form-'+tabClass).addClass('active');
+	});
  });
 
 })(jQuery);

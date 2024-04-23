@@ -6,7 +6,7 @@
 					<a href="<?php echo esc_url( site_url() ); ?>" class="logo">
 						<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/assets/images/logo-pl.svg" alt="image">
 					</a>
-					<p>Style your Woo Store Super Organized! Elevate layouts with exclusive perks Grow revenues with the effective and exclusive features of Product Layouts! </p>
+					<p>Empowering Your WordPress Experience with Cutting-Edge Plugins: Elevating Performance, Speed, and Ease of Use to Supercharge Your Website Growth.</p>
 					<ul class="social-links">
 						<li><a href="https://www.facebook.com/wptoffee"><span class="icon icon-facebook"></span></a></li>
 						<li><a href="#"><span class="icon icon-x"></span></a></li>
