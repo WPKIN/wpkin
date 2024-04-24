@@ -1,37 +1,46 @@
 <?php
+/**
+ * Template Name: Page (Default)
+ * Description: Page template with Sidebar on the left side.
+ *
+ */
 
 get_header();
 
+?>
 
-while ( have_posts() ) :
-	the_post();
-	?>
+    <section class="title-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 m-auto">
+                    <div class="header-content text-center">
+                        <h1><?php the_title(); ?></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<section class="page-banner" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/hero.jpg);">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="banner-content">
-						<h2><?php the_title(); ?></h2>
-						<!-- <p>DON'T FORGET TO REPLACE ME LATER</p> -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 m-auto">
+                <div id="post-<?php the_ID(); ?>" <?php post_class( 'entry-content' ); ?>>
+					<?php
+					the_content();
 
-	<div class="page-content section-padding">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-					<div class="generic-content">
-						<?php the_content(); ?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					wp_link_pages(
+						array(
+							'before' => '<div class="page-links">' . __( 'Pages:', 'wptoffee' ),
+							'after'  => '</div>',
+						)
+					);
+					edit_post_link( esc_html__( 'Edit', 'wptoffee' ), '<span class="edit-link">', '</span>' );
+					?>
+                </div><!-- /#post-<?php the_ID(); ?> -->
 
-	<?php
-endwhile;
+            </div><!-- /.col -->
+
+        </div>
+    </div>
+<?php
 get_footer();

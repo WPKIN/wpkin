@@ -65,14 +65,14 @@
 						<a class="nav-link" href="<?php echo site_url( '/about-us' ); ?>">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="<?php echo site_url( '/docs-category/product-layouts-for-woocommerce' ); ?>">Docs</a>
+						<a class="nav-link" href="<?php echo site_url( '/docs' ); ?>">Docs</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="<?php echo site_url( '/contact-us' ); ?>">Support</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link menu-btn" href="<?php echo site_url( '/pricing' ); ?>">Login</span></a>
-					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link menu-btn" href="<?php //echo site_url( '/pricing' ); ?>">Login</span></a>
+					</li> -->
 				</ul>
 			</div>
 		</div>
