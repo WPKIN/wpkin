@@ -21,7 +21,7 @@ get_header();
         </div>
     </section>
 
-    <div class="container">
+    <div class="container wt-page-container">
         <div class="row">
             <div class="col-md-10 m-auto">
                 <div id="post-<?php the_ID(); ?>" <?php post_class( 'entry-content' ); ?>>

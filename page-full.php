@@ -22,7 +22,7 @@ the_post();
         </div>
     </section>
 
-<div id="post-<?php the_ID(); ?>" <?php post_class( 'content' ); ?>>
+<div class="wt-page-container" id="post-<?php the_ID(); ?>" <?php post_class( 'content' ); ?>>
 	<?php
 		the_content();
 
