@@ -21,12 +21,11 @@
 						<div class="pages footer-links">
 							<h3>Resources</h3>
 							<ul class="links">
-								<li><a href="https://wptoffee.com/about-us/">About us</a></li>
-								<li><a href="https://wptoffee.com/contact-us/">Contact Us</a></li>
-								<li><a href="https://wptoffee.com/affiliate/">Affiliates</a></li>
-								<li><a href="#">Affiliate Policy</a></li>
-								<li><a href="https://wptoffee.com/privacy-policy/">Privacy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
+								<li><a href="/about-us/">About us</a></li>
+								<li><a href="/affiliates/">Affiliates</a></li>
+								<li><a href="/affiliate-policy/">Affiliate Policy</a></li>
+								<li><a href="/privacy-policy/">Privacy Policy</a></li>
+								<li><a href="/refund-policy/">Refund Policy</a></li>
 							</ul>
 						</div>
 					</div>
@@ -34,8 +33,8 @@
 						<div class="policies footer-links">
 							<h3>Get Help</h3>
 							<ul class="links">
-								<li><a href="https://wptoffee.com/docs/what-is-the-product-layouts-plugin-for-woocommerce/">Docs</a></li>
-								<li><a href="https://wptoffee.com/contact-us/">Support</a></li>
+								<li><a href="/docs/">Docs</a></li>
+								<li><a href="/contact-us/">Support</a></li>
 								<li><a href="https://www.youtube.com/@wptoffee">Video Tutorial</a></li>
 								<li><a href="#">Submit Request</a></li>
 							</ul>

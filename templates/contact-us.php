@@ -13,8 +13,8 @@ get_header();
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-7 m-auto">
-				<div class="header-content text-center">
-					<h2>How can we help?</h2>
+				<div class="header-content text-center mb-4">
+					<h1>How can we help?</h1>
 					<p>Whether you have a question about features, trials, pricing, or anything else, our team is ready
 						to answer all of them.</p>
 				</div>

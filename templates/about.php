@@ -14,7 +14,7 @@ get_header();
 		<div class="row align-items-center">
 			<div class="col-lg-7 m-auto">
 				<div class="header-content text-center">
-					<h2>About Us</h2>
+					<h1>About Us</h1>
 					<p>We are a small team who are helping businesses grow online with Easy & Affordable solutions</p>
 				</div>
 			</div>

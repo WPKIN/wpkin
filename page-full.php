@@ -15,7 +15,7 @@ the_post();
             <div class="row align-items-center">
                 <div class="col-lg-7 m-auto">
                     <div class="header-content text-center">
-                        <h2><?php the_title(); ?></h2>
+                        <h1><?php the_title(); ?></h1>
                     </div>
                 </div>
             </div>
