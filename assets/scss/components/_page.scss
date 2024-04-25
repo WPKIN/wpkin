@@ -34,4 +34,19 @@ body.search {
 	h4{
 		font-size: clamp(1.2rem, 2vw, 1.5rem);
 	}
+	.container{
+		p {
+			line-height: 1.5;
+			margin-top: 1.2rem;
+			margin-bottom: 1.2em;
+			font-size: 20px;
+		}
+		ul{
+			li{
+				list-style: unset;
+				margin-bottom: 0.5rem;
+				font-size: 20px;
+			}
+		}
+	}
 }
