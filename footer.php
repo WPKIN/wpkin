@@ -22,7 +22,7 @@
 							<h3>Resources</h3>
 							<ul class="links">
 								<li><a href="/about-us/">About us</a></li>
-								<li><a href="/affiliates/">Affiliates</a></li>
+								<li><a href="/affiliate-register/">Affiliates</a></li>
 								<li><a href="/affiliate-policy/">Affiliate Policy</a></li>
 								<li><a href="/privacy-policy/">Privacy Policy</a></li>
 								<li><a href="/refund-policy/">Refund Policy</a></li>
