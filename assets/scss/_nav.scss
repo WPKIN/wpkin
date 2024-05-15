@@ -61,11 +61,11 @@ nav {
 
         img {
           width: auto;
-          height: 36px;
+          height: 30px;
 
-          @media (max-width: 575px) {
-            height: 31px;
-          }
+        //   @media (max-width: 575px) {
+        //     height: 30px;
+        //   }
         }
       }
     }
