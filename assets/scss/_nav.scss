@@ -63,9 +63,9 @@ nav {
           width: auto;
           height: 30px;
 
-        //   @media (max-width: 575px) {
-        //     height: 30px;
-        //   }
+          @media (max-width: 575px) {
+            height: 26px;
+          }
         }
       }
     }
