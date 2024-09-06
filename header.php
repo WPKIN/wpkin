@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="home-links">
 				<a href="<?php echo site_url(); ?>" class="nav-link navbar-brand">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpkin-logo.png" alt="WPKIN">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpkin-logo.svg" alt="WPKIN">
 				</a>
 			</div>
 			<button class="navbar-toggler" type="button">

@@ -4,7 +4,7 @@
 			<div class="col-lg-4">
 				<div class="product-info">
 					<a href="<?php echo esc_url( site_url() ); ?>" class="logo">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpkin-logo.png" alt="WPKIN">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpkin-logo.svg" alt="WPKIN">
 					</a>
 					<p>Empowering Your WordPress Experience with Cutting-Edge Plugins: Elevating Performance, Speed, and Ease of Use to Supercharge Your Website Growth.</p>
 					<ul class="social-links">
