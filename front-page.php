@@ -11,7 +11,7 @@ get_header();
 					<div class="hero-content text-center">
 						<p class="banner-slogan">WORDPRESS  &  WOOCOMMERCE  SOLUTIONS</p>
 						<h1>Stylish WordPress Plugins</h1>
-						<p class="banner-sub-heading">Wptoffee is all about making your WordPress experience amazing. Our Plugins are loved for their beautiful designs, clean code, and quick support.</p>
+						<p class="banner-sub-heading">WPKIN is all about making your WordPress experience amazing. Our Plugins are loved for their beautiful designs, clean code, and quick support.</p>
 						<a href="#plugin-showcase" class="btn btn-outline banner-button">Explore Plugins <span class="icon icon-right"></span></a>
 					</div>
 				</div>

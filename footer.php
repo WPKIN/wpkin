@@ -8,10 +8,10 @@
 					</a>
 					<p>Empowering Your WordPress Experience with Cutting-Edge Plugins: Elevating Performance, Speed, and Ease of Use to Supercharge Your Website Growth.</p>
 					<ul class="social-links">
-						<li><a href="https://www.facebook.com/wptoffee"><span class="icon icon-facebook"></span></a></li>
-						<li><a href="#"><span class="icon icon-x"></span></a></li>
-						<li><a href="https://www.linkedin.com/company/wptoffee/?viewAsMember=true"><span class="icon icon-linkedin"></span></a></li>
-						<li><a href="https://www.youtube.com/@wptoffee"><span class="icon icon-youtube-play"></span></a></li>
+						<li><a href="https://www.facebook.com/wpkin"><span class="icon icon-facebook"></span></a></li>
+						<li><a href="https://x.com/wpkin94"><span class="icon icon-x"></span></a></li>
+						<li><a href="https://www.linkedin.com/company/wpkin/?viewAsMember=true"><span class="icon icon-linkedin"></span></a></li>
+						<li><a href="https://www.youtube.com/@wpkin"><span class="icon icon-youtube-play"></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -35,7 +35,7 @@
 							<ul class="links">
 								<li><a href="/docs/">Docs</a></li>
 								<li><a href="/contact-us/">Support</a></li>
-								<li><a href="https://www.youtube.com/@wptoffee">Video Tutorial</a></li>
+								<li><a href="https://www.youtube.com/@wpkin">Video Tutorial</a></li>
 								<li><a href="#">Submit Request</a></li>
 							</ul>
 						</div>

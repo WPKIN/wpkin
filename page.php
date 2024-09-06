@@ -30,11 +30,11 @@ get_header();
 
 					wp_link_pages(
 						array(
-							'before' => '<div class="page-links">' . __( 'Pages:', 'wptoffee' ),
+							'before' => '<div class="page-links">' . __( 'Pages:', 'wpkin' ),
 							'after'  => '</div>',
 						)
 					);
-					edit_post_link( esc_html__( 'Edit', 'wptoffee' ), '<span class="edit-link">', '</span>' );
+					edit_post_link( esc_html__( 'Edit', 'wpkin' ), '<span class="edit-link">', '</span>' );
 					?>
                 </div><!-- /#post-<?php the_ID(); ?> -->
 

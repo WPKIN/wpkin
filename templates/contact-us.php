@@ -65,7 +65,7 @@ get_header();
 				<div class="contact-sidebar text-center">
 					<h2>Video tutorials</h2>
 					<p>Get to see the necessary video tutorials regarding our products.</p>
-					<a href="https://www.youtube.com/@wptoffee" class="wt-button" target="_blank">Watch videos</a>
+					<a href="https://www.youtube.com/@wpkin" class="wt-button" target="_blank">Watch videos</a>
 				</div>
 			</div>
 		</div>
