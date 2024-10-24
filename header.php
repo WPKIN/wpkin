@@ -10,6 +10,11 @@
 <body <?php body_class(); ?> >
 <header class="fixed-top">
 	<!-- Offer Bar -->
+	<?php 
+	if ( shortcode_exists( 'wpkin_campain_banner' ) ) {
+		echo do_shortcode( '[wpkin_campain_banner]' );
+	}
+	?>
 	<?php get_template_part( 'template-parts/content', 'topbar' ); ?>
 
 	<nav class="navbar">
