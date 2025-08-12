@@ -52,11 +52,44 @@
 							<li class="nav-item">
 								<a class="nav-link" href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank">
 									<div class="menu-logo">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankyoupage.jpg" alt="Icon">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankredirect.png" alt="Icon">
 									</div>
 									<div class="menu-title">
-										<h4>Thank You Page</h4>
+										<h4>Thank Redirect</h4>
 										<p>Give a thank you to your customer after completing an order.</p>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://wordpress.org/plugins/shop-manager/" target="_blank">
+									<div class="menu-logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/shopmanager.png" alt="Icon">
+									</div>
+									<div class="menu-title">
+										<h4>Shop Manager</h4>
+										<p>Shop Manager for Woocommerce.</p>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://wpkindemos.com/imagehover" target="_blank">
+									<div class="menu-logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/image-hover.png" alt="Icon">
+									</div>
+									<div class="menu-title">
+										<h4>Image Hover Effects Ultimatet</h4>
+										<p>Create stunning image hover effects.</p>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://wpkindemos.com/flipbox/" target="_blank">
+									<div class="menu-logo">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/flipbox.png" alt="Icon">
+									</div>
+									<div class="menu-title">
+										<h4>FlipBox</h4>
+										<p>Showcase team members or any list with Flipbox.</p>
 									</div>
 								</a>
 							</li>

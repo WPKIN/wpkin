@@ -33,7 +33,7 @@ get_header();
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-12">
+				<div class="col-lg-4 mt-4">
 					<div class="card card-shadow mx-auto">
 						<div class="card-img">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/productlayouts.png" alt="Icon">
@@ -45,15 +45,53 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-8 col-sm-10 col-12 mt-lg-0 mt-4">
+				<div class="col-lg-4 mt-4">
 					<div class="card card-shadow mx-auto">
 						<div class="card-img">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankyoupage.jpg" alt="Icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thankredirect.png" alt="Thank Redirect">
 						</div>
 						<div class="card-body">
-							<h4 class="card-title">Thank You Page</h4>
-							<p class="card-text">WC Thank You Page redirect internal custom thank you page or external any url after completing orders on your WooCommerc…</p>
+							<h4 class="card-title">Thank Redirect</h4>
+							<p class="card-text">Thank redirect internal custom thank you page or external any url after completing orders on your WooCommerc…</p>
 							<a href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mt-4">
+					<div class="card card-shadow mx-auto">
+						<div class="card-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/shopmanager.png" alt="Shop Manager">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Shop Manager</h4>
+							<p class="card-text">Shop Manager provides a modern, efficient frontend interface for managing woocommerce orders, products, customers, everything.</p>
+							<a href="https://wordpress.org/plugins/shop-manager/" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-6 mt-4">
+					<div class="card card-shadow mx-auto">
+						<div class="card-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/image-hover.png" alt="Icon">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Image Hover Effects Ultimate</h4>
+							<p class="card-text">Create stunning image hover effects like gallery, lightbox, comparison, or magnifier with 500+ modern, elegant, lightweight animations.</p>
+							<a href="https://wpkindemos.com/imagehover" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mt-4">
+					<div class="card card-shadow mx-auto">
+						<div class="card-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/flipbox.png" alt="Icon">
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">FlipBox</h4>
+							<p class="card-text">Showcase team members or any list with Flipbox - Awesome Flip Boxes Image Overlay. A clean, responsive, and professional way to display your team.</p>
+							<a href="https://wpkindemos.com/flipbox" target="_blank" class="link">Explore Now <span class="icon icon-arrow-right"></span></a>
 						</div>
 					</div>
 				</div>
@@ -228,7 +266,9 @@ get_header();
 					</div>
 					<div class="plugins-button text-center">
 						<a class="wt-button" href="https://product-layouts.com/" target="_blank">Explore Product Layouts</a>
-						<a class="wt-button" href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank">Explore Thank You Page</a>
+						<a class="wt-button" href="https://wordpress.org/plugins/wc-thank-you-page/" target="_blank">Explore Thank Redirect</a>
+						<a class="wt-button" href="https://wpkindemos.com/imagehover" target="_blank">Explore Image Hover</a>
+						<a class="wt-button" href="https://wpkindemos.com/flipbox/" target="_blank">Explore Flipbox</a>
 					</div>
 				</div>
 				<!-- /.column -->
